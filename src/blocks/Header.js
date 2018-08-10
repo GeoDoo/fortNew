@@ -1,10 +1,10 @@
 import React from 'react';
 import Menu from '../elements/Menu';
-import logo from '../assets/fort.png';
+import Logo from './Logo';
 
 const Header = () => (
   <div>
-    <img id="logo" src={logo} width={80} height={80} alt="Fort security" />
+    <Logo />
     <Menu />
   </div>
 );

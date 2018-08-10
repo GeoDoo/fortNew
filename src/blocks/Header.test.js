@@ -14,7 +14,7 @@ describe('<Header />', () => {
     });
 
     it('should have a logo', () => {
-      expect(wrapper.find('#logo').length).toBe(1);
+      expect(wrapper.find('Logo').length).toBe(1);
     });
 
     it('should have a menu', () => {

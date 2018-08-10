@@ -14,10 +14,9 @@
     "react-test-renderer": "^16.4.2"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
+    "linters": {
+      "src/**/*.{js,jsx,json,css}": ["prettier --single-quote --write","git add"]
+    }
   },
   "scripts": {
     "precommit": "lint-staged",

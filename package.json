@@ -23,7 +23,7 @@
   },
   "lint-staged": {
     "linters": {
-      "src/**/*.{js,jsx,css}": [
+      "src/**/*.{js,jsx}": [
         "prettier --single-quote --write",
         "git add"
       ]

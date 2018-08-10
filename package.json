@@ -22,12 +22,10 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "linters": {
-      "src/**/*.{js,jsx,json,css}": [
-        "prettier --single-quote --write",
-        "git add"
-      ]
-    }
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "jest": {
     "collectCoverageFrom" : [

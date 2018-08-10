@@ -4,7 +4,7 @@ import logo from '../assets/fort.png';
 
 const Header = () => (
   <div>
-    <img id="logo" src={logo} />
+    <img id="logo" src={logo} width={80} height={80} alt="Fort security" />
     <Menu />
   </div>
 );

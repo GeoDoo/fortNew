@@ -1,6 +1,9 @@
 import React from 'react';
-import MenuItem from './MenuItem';
 
-const Menu = () => <MenuItem />;
+const Menu = ({ children }) => (
+  <nav>
+    <ul>{children}</ul>
+  </nav>
+);
 
 export default Menu;

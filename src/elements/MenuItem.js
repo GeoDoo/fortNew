@@ -1,5 +1,5 @@
 import React from 'react';
 
-const MenuItem = () => null;
+const MenuItem = ({ text }) => <li>{text}</li>;
 
 export default MenuItem;

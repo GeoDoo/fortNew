@@ -1,11 +1,12 @@
 import React from 'react';
-import Menu from '../elements/Menu';
 import Logo from './Logo';
+import { createMenu } from '../adapters/menu';
+import menuData from '../assets/text/menus.json';
 
 const Header = () => (
   <div>
     <Logo />
-    <Menu />
+    {createMenu(menuData.main)}
   </div>
 );
 

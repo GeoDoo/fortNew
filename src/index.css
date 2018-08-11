@@ -9,6 +9,10 @@ body {
   color: #222222;
 }
 
+#root {
+  padding-top: 101px;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;

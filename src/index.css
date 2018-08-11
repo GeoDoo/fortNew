@@ -24,3 +24,14 @@ menu {
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:active,
+a:focus,
+a:visited {
+  outline: none;
+}

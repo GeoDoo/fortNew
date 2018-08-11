@@ -1,8 +1,11 @@
 import React from 'react';
+import './BurgerMenu.css';
 
-const BurgerMenu = ({ onClick }) => (
-  <div className="burger" onClick={onClick}>
-    Menu
+const BurgerMenu = ({ onClick, animate }) => (
+  <div className={animate ? 'burger animate' : 'burger'} onClick={onClick}>
+    <span />
+    <span />
+    <span />
   </div>
 );
 

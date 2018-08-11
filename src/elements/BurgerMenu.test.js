@@ -14,7 +14,7 @@ describe('BurgerMenu', () => {
     });
 
     it('should have a burger', () => {
-      expect(wrapper.text()).toBe('Menu');
+      expect(wrapper.find('span').length).toBe(3);
     });
   });
 });

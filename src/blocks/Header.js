@@ -25,7 +25,7 @@ class Header extends Component {
         <div id="main-menu" className={isMenuVisible ? '' : 'hidden'}>
           {createMenu(main)}
         </div>
-        <BurgerMenu onClick={this.onClick} />
+        <BurgerMenu onClick={this.onClick} animate={isMenuVisible} />
       </div>
     );
   }

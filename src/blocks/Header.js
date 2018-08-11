@@ -20,13 +20,13 @@ class Header extends Component {
   render() {
     const { isMenuVisible } = this.state;
     return (
-      <div id="header">
+      <header id="header">
         <Logo />
         <div id="main-menu" className={isMenuVisible ? '' : 'hidden'}>
           {createMenu(main)}
         </div>
         <BurgerMenu onClick={this.onClick} animate={isMenuVisible} />
-      </div>
+      </header>
     );
   }
 }

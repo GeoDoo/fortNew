@@ -25,4 +25,9 @@
 .menu li a {
   display: block;
   padding: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: #87171c;
 }

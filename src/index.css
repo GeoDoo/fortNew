@@ -1,4 +1,4 @@
-/*fort color #87171c*/
+/* fort colors #87171c #9b918d */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
@@ -6,6 +6,7 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background: #f5f5f5;
+  color: #222222;
 }
 
 #root {

@@ -6,11 +6,15 @@
   cursor: pointer;
 }
 
+.burger:hover span {
+  background: #87171c;
+}
+
 .burger span {
   display: block;
   width: 35px;
   height: 5px;
-  background-color: black;
+  background: #9b918d;
   margin: 5px 0;
   transition: all 0.3s ease-in-out;
 }

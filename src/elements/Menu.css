@@ -21,3 +21,8 @@
 
 .menu li {
 }
+
+.menu li a {
+  display: block;
+  padding: 16px;
+}

@@ -2,12 +2,12 @@ import React from 'react';
 import { shallow, mount } from 'enzyme';
 import Logo from './Logo';
 
-describe('<Logo />', () => {
+describe('Logo', () => {
   it('should render without crashing', () => {
     shallow(<Logo />);
   });
 
-  describe('should contain necessary components', () => {
+  describe('components', () => {
     let wrapper;
     beforeEach(() => {
       wrapper = mount(<Logo />);

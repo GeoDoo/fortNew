@@ -15,8 +15,12 @@ describe('createCopyright', () => {
   it('should contain copyright text and author link', () => {
     expect(createCopyright(data)).toEqual(
       <p>
-        Copyright © 2013-2018 by{' '}
-        <a href="https://www.linkedin.com/in/georgekarametas" target="_blank">
+        Copyright © 2013-2018 by
+        <a
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/georgekarametas"
+          target="_blank"
+        >
           geodoo
         </a>{' '}
         - All rights reserved.

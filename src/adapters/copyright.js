@@ -12,8 +12,12 @@ export const createYearsRange = () =>
 
 const createCopyright = () => (
   <p>
-    {`${beginning} ${ascii} ${createYearsRange(startYear)} by `}
-    <a href="https://www.linkedin.com/in/georgekarametas" target="_blank">
+    {`${beginning} ${ascii} ${createYearsRange(startYear)} by`}
+    <a
+      rel="noopener noreferrer"
+      href="https://www.linkedin.com/in/georgekarametas"
+      target="_blank"
+    >
       {author}
     </a>
     {` ${ending}`}

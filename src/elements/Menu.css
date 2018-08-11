@@ -1,16 +1,23 @@
-.nav {
+#main-menu {
+  position: fixed;
+  top: 101px;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #9b918d;
+  transition: left 0.3s ease-in-out;
+}
+
+#main-menu .nav {
   flex: 1;
+  padding: 16px;
+  color: #ffffff;
 }
 
 .menu {
-  display: flex;
 }
 
 .menu li {
-  flex: 1;
-  align-self: center;
-  text-align: center;
 }

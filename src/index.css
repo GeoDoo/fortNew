@@ -13,23 +13,8 @@ body {
   margin: auto;
 }
 
-#logo {
-  padding: 10px;
-}
-
-#main-menu {
-  display: flex;
-}
-
-.burger {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  z-index: 1;
-}
-
 .hidden {
-  display: none !important;
+  left: -100vw !important;
 }
 
 ul,

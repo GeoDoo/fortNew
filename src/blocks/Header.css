@@ -7,3 +7,14 @@
   top: 0;
   left: 0;
 }
+
+#logo {
+  padding: 8px;
+}
+
+.burger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}

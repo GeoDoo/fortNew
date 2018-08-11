@@ -19,8 +19,8 @@ const createCopyright = () => (
       target="_blank"
     >
       {author}
-    </a>
-    {` ${ending}`}
+    </a>{' '}
+    {`${ending}`}
   </p>
 );
 

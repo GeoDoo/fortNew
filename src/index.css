@@ -14,3 +14,11 @@ body {
 #logo {
   padding: 10px;
 }
+
+ul,
+ol,
+menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

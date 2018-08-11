@@ -1,8 +1,9 @@
 import React from 'react';
+import './Menu.css';
 
 const Menu = ({ children }) => (
-  <nav>
-    <ul>{children}</ul>
+  <nav className="nav">
+    <ul className="menu">{children}</ul>
   </nav>
 );
 

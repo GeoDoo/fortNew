@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './blocks/Header';
 
 const App = () => (
-  <div>
+  <div className="container">
     <Header />
   </div>
 );

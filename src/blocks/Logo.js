@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../assets/images/fort.png';
 
 const Logo = () => (
-  <div>
-    <img id="logo" src={logo} width={80} height={80} alt="Fort security" />
+  <div id="logo">
+    <img src={logo} width={80} height={80} alt="Fort security" />
   </div>
 );
 

@@ -1,5 +1,9 @@
 import React from 'react';
 
-const BurgerMenu = ({ showMenu }) => <div onClick={showMenu}>Menu</div>;
+const BurgerMenu = ({ onClick }) => (
+  <div className="burger" onClick={onClick}>
+    Menu
+  </div>
+);
 
 export default BurgerMenu;

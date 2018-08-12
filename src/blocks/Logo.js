@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from '../elements/Link';
+import SimpleLink from '../elements/SimpleLink';
 import logo from '../assets/images/fort.png';
 
 const Logo = () => (
   <div id="logo">
-    <Link href={''}>
+    <SimpleLink href={''}>
       <img src={logo} width={80} height={80} alt="Fort security" />
-    </Link>
+    </SimpleLink>
   </div>
 );
 

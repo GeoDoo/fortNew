@@ -1,9 +1,9 @@
 import React from 'react';
-import Link from './Link';
+import SimpleLink from './SimpleLink';
 
 const MenuItem = ({ text }) => (
   <li className="menu-item">
-    <Link href={''}>{text}</Link>
+    <SimpleLink href={''}>{text}</SimpleLink>
   </li>
 );
 

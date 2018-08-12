@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Link from './Link';
+import SimpleLink from './SimpleLink';
 
-describe('Link', () => {
+describe('SimpleLink', () => {
   it('should render without crashing', () => {
-    shallow(<Link />);
+    shallow(<SimpleLink />);
   });
 });

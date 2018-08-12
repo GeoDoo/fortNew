@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Link = ({ href, children }) => (
+const SimpleLink = ({ href, children }) => (
   <a href={href} className="link">
     {children}
   </a>
 );
 
-export default Link;
+export default SimpleLink;

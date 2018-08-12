@@ -12,7 +12,9 @@ export const createYearsRange = () =>
 
 const createCopyright = () => (
   <p>
-    {`${beginning} ${ascii} ${createYearsRange(startYear)} by`}{' '}
+    {`${beginning} ${ascii} ${createYearsRange(startYear)}`}
+    {' - '}
+    {`design-development:`}{' '}
     <a
       rel="noopener noreferrer"
       href="https://www.linkedin.com/in/georgekarametas"

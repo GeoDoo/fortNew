@@ -26,7 +26,11 @@ export default App;
 
 // Future pages
 
-// <Route path="/proionta" component={Products} />
-// <Route path="/pelates" component={Customers} />
+// <Route path="/lyseis" component={Solutions} />
+// <Route path="/synergasies" component={Partnerships} />
 // <Route path="/blog" component={Blog} />
 // <Route path="/epikoinonia" component={Contact} />
+
+// Slogan
+
+// Your security, our specialty

@@ -10,7 +10,7 @@ import Main from './regions/Main';
 import Copyright from './blocks/Copyright';
 
 const App = () => (
-  <div className="container">
+  <div className="page">
     <Header>
       <Logo />
       <Navigation />

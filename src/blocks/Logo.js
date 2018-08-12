@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleLink from '../elements/SimpleLink';
 import logo from '../assets/images/fort.png';
+import './Logo.css';
 
 const Logo = () => (
   <div id="logo">

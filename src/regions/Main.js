@@ -3,7 +3,7 @@ import './Main.css';
 
 const Main = ({ children }) => (
   <main id="main" role="main">
-    {children}
+    <div className="container">{children}</div>
   </main>
 );
 

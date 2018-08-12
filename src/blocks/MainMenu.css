@@ -17,3 +17,23 @@
   padding: 0 16px;
   color: #ffffff;
 }
+
+#main-menu .menu {
+  padding: 16px 0;
+}
+
+#main-menu .menu li {
+}
+
+#main-menu .menu li a {
+  display: block;
+  padding: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-menu .menu li a:hover {
+  color: #87171c;
+  background: rgba(255, 255, 255, 0.6);
+}

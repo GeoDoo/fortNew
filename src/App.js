@@ -23,3 +23,10 @@ const App = () => (
 );
 
 export default App;
+
+// Future pages
+
+// <Route path="/proionta" component={Products} />
+// <Route path="/pelates" component={Customers} />
+// <Route path="/blog" component={Blog} />
+// <Route path="/epikoinonia" component={Contact} />

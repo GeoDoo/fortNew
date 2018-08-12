@@ -20,3 +20,7 @@
   left: 0;
   width: calc(100vw - 32px);
 }
+
+.closed {
+  right: -100vw !important;
+}

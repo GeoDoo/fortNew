@@ -43,10 +43,6 @@ h1 {
   flex: 1;
 }
 
-.closed {
-  right: -100vw !important;
-}
-
 ul,
 ol,
 menu {

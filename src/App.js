@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from './blocks/Header';
+import Header from './regions/Header';
+import Logo from './blocks/Logo';
+import Navigation from './blocks/Navigation';
 import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './regions/Footer';
@@ -9,7 +11,10 @@ import Copyright from './blocks/Copyright';
 
 const App = () => (
   <div className="container">
-    <Header />
+    <Header>
+      <Logo />
+      <Navigation />
+    </Header>
     <Router>
       <Main>
         <Route exact path="/" component={Home} />

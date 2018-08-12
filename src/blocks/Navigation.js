@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import Logo from './Logo';
 import MainMenu from './MainMenu';
 import BurgerMenu from '../elements/BurgerMenu';
-import './Header.css';
 
-class Header extends Component {
+class Navigation extends Component {
   state = {
     isMenuVisible: false
   };
@@ -19,13 +17,12 @@ class Header extends Component {
   render() {
     const { isMenuVisible } = this.state;
     return (
-      <header id="header">
-        <Logo />
+      <div id="navigation">
         <MainMenu isVisible={isMenuVisible} />
         <BurgerMenu onClick={this.onClick} animate={isMenuVisible} />
-      </header>
+      </div>
     );
   }
 }
 
-export default Header;
+export default Navigation;

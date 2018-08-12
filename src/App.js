@@ -4,16 +4,17 @@ import Header from './blocks/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './regions/Footer';
+import Main from './regions/Main';
 import Copyright from './blocks/Copyright';
 
 const App = () => (
   <div className="container">
     <Header />
     <Router>
-      <div>
+      <Main>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </div>
+        <Route path="/i-etairia" component={About} />
+      </Main>
     </Router>
     <Footer>
       <Copyright />

@@ -12,7 +12,9 @@ const createWelcome = data => {
         {title.beginning} <span>{title.ending}</span>
       </h1>
       {createParagraphs(paragraphs)}
-      <a href={more.link}>{more.text}</a>
+      <a href={more.link}>
+        <em>{more.text}</em>
+      </a>
     </div>
   );
 };

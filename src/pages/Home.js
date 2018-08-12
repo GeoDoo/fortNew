@@ -1,8 +1,9 @@
 import React from 'react';
+import Welcome from '../blocks/Welcome';
 
 const Home = ({ children }) => (
   <div className="home">
-    <h1>Home</h1>
+    <Welcome />
   </div>
 );
 

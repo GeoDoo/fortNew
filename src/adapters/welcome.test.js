@@ -32,5 +32,6 @@ describe('createWelcome', () => {
     expect(wrapper.find('p').length).toBe(3);
     expect(wrapper.find('a').props().href).toBe('/about');
     expect(wrapper.find('a').text()).toBe('text');
+    expect(wrapper.find('a').find('em').length).toBe(1);
   });
 });

@@ -4,7 +4,7 @@ import logo from '../assets/images/fort.png';
 
 const Logo = () => (
   <div id="logo">
-    <SimpleLink href={''}>
+    <SimpleLink href="/">
       <img src={logo} width={80} height={80} alt="Fort security" />
     </SimpleLink>
   </div>

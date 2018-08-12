@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './Logo';
-import { createMenu } from '../adapters/menu';
-import { main } from '../assets/text/menus.json';
+import MainMenu from './MainMenu';
 import BurgerMenu from '../elements/BurgerMenu';
 import './Header.css';
 
@@ -22,9 +21,7 @@ class Header extends Component {
     return (
       <header id="header">
         <Logo />
-        <div id="main-menu" className={isMenuVisible ? '' : 'hidden'}>
-          {createMenu(main)}
-        </div>
+        <MainMenu isVisible={isMenuVisible} />
         <BurgerMenu onClick={this.onClick} animate={isMenuVisible} />
       </header>
     );

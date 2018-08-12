@@ -20,5 +20,9 @@ describe('Welcome', () => {
     it('should have at least one paragraph', () => {
       expect(wrapper.find('p').length).toBeGreaterThan(0);
     });
+
+    it('should have a more link', () => {
+      expect(wrapper.find('a.more').length).toBe(1);
+    });
   });
 });

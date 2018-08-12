@@ -34,6 +34,14 @@ h1 {
   padding: 0 16px;
 }
 
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+  position: relative;
+  flex: 1;
+}
+
 .hidden {
   left: -100vw !important;
 }

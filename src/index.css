@@ -1,5 +1,5 @@
 /* fort colors #87171c #9b918d */
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&subset=greek');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700&subset=greek');
 
 body {
   margin: 0;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .hidden {
-  left: -100vw !important;
+  right: -100vw !important;
 }
 
 ul,

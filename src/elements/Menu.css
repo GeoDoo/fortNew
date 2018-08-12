@@ -7,8 +7,9 @@
 
 .menu li a {
   display: block;
-  padding: 16px;
+  padding: 16px 0;
   color: #ffffff;
+  font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
 

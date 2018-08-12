@@ -21,4 +21,22 @@ describe('Navigation', () => {
       expect(wrapper.find('MainMenu').length).toBe(1);
     });
   });
+
+  describe('components', () => {
+    let wrapper;
+    beforeEach(() => {
+      wrapper = mount(<Navigation />);
+    });
+
+    it('should toggle MainMenu when BurgerMenu is clicked', () => {
+      wrapper.find('BurgerMenu').simulate('click');
+      expect(wrapper.state().isMenuVisible).toBe(true);
+
+      wrapper.find('BurgerMenu').simulate('click');
+      expect(wrapper.state().isMenuVisible).toBe(false);
+
+      wrapper.find('BurgerMenu').simulate('click');
+      expect(wrapper.state().isMenuVisible).toBe(true);
+    });
+  });
 });

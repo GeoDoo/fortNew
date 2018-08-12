@@ -1,25 +1,10 @@
 #main-menu {
-  position: fixed;
-  top: 81px;
-  right: 0;
-  z-index: 9999;
-  width: 100vw;
-  height: 100vh;
-  max-height: calc(100vh - 81px);
-  overflow: auto;
-  display: flex;
-  background: #9b918d;
-  transition: right 0.3s ease-in-out;
 }
 
 #main-menu .nav {
-  flex: 1;
-  padding: 0 16px;
-  color: #ffffff;
 }
 
 #main-menu .menu {
-  padding: 16px 0;
 }
 
 #main-menu .menu li {

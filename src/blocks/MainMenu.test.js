@@ -21,22 +21,4 @@ describe('MainMenu', () => {
       expect(wrapper.find('MenuItem').length).toBeGreaterThan(0);
     });
   });
-
-  describe('behavior', () => {
-    let wrapper;
-
-    it('should toggle CSS class appropriately', () => {
-      wrapper = mount(<MainMenu isVisible={true} />);
-      expect(wrapper.render()[0].attribs).toEqual({
-        id: 'main-menu',
-        class: ''
-      });
-
-      wrapper = mount(<MainMenu isVisible={false} />);
-      expect(wrapper.render()[0].attribs).toEqual({
-        id: 'main-menu',
-        class: 'hidden'
-      });
-    });
-  });
 });

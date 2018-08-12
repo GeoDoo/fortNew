@@ -43,7 +43,7 @@ h1 {
   flex: 1;
 }
 
-.hidden {
+.closed {
   right: -100vw !important;
 }
 

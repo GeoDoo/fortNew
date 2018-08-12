@@ -13,7 +13,10 @@
 }
 
 #drawer .frame {
-  flex: 1;
   padding: 16px;
   color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 32px);
 }

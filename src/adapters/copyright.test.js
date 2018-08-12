@@ -1,30 +1,29 @@
 import React from 'react';
-import createCopyright, { createYearsRange } from './copyright';
-import data from '../assets/text/copyright.json';
-
-describe('createYearsRange', () => {
-  it('should make create the range starting from the start year up to current year', () => {
-    const { startYear } = data;
-    const currentYear = new Date().getFullYear();
-
-    expect(createYearsRange(startYear)).toBe(`${startYear}-${currentYear}`);
-  });
-});
+import { shallow } from 'enzyme';
+import createCopyright from './copyright';
 
 describe('createCopyright', () => {
   it('should contain copyright text and author link', () => {
-    expect(createCopyright(data)).toEqual(
-      <p>
-        Copyright © 2013-2018 by{' '}
-        <a
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/georgekarametas"
-          target="_blank"
-        >
-          geodoo
-        </a>{' '}
-        - All rights reserved.
-      </p>
-    );
+    const data = {
+      beginning: 'Copyright',
+      ascii: '©',
+      startYear: '2013',
+      author: 'geodoo',
+      ending: '- All rights reserved.'
+    };
+    const wrapper = shallow(createCopyright(data));
+    const currentYear = new Date().getFullYear();
+
+    expect(wrapper.text().includes('Copyright')).toBe(true);
+    expect(wrapper.text().includes('©')).toBe(true);
+    expect(wrapper.text().includes(`2013-${currentYear}`)).toBe(true);
+    expect(wrapper.find('a').length).toBe(1);
+    expect(
+      wrapper
+        .find('a')
+        .text()
+        .includes('geodoo')
+    ).toBe(true);
+    expect(wrapper.text().includes('All rights reserved')).toBe(true);
   });
 });

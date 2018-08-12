@@ -1,6 +1,6 @@
 import React from 'react';
 
-// FIXME find some better way to handle keys
+// FIXME: find some better way to handle keys
 const createParagraphs = paragraphs =>
   paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>);
 

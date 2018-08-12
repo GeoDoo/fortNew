@@ -6,7 +6,7 @@ import './Logo.css';
 const Logo = () => (
   <div id="logo">
     <SimpleLink href="/">
-      <img src={logo} width={80} height={80} alt="Fort security" />
+      <img src={logo} width={60} height={60} alt="Fort Security" />
     </SimpleLink>
   </div>
 );

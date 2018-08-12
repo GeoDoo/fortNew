@@ -25,7 +25,8 @@ h1 {
 }
 
 #root {
-  padding-top: 101px;
+  padding-top: 81px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .container {

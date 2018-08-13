@@ -6,7 +6,7 @@ export const createMenu = data => {
   return (
     <Menu>
       {data.map(item => (
-        <MenuItem key={item} text={item} />
+        <MenuItem key={item.link} text={item.text} href={item.link} />
       ))}
     </Menu>
   );

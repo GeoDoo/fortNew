@@ -19,8 +19,8 @@ const createTitleSvgText = data => {
             <div className="intro-svg center">
               <SVG
                 src={require('../assets/images/' + svg)}
-                width={200}
-                height={200}
+                width={300}
+                height={300}
                 alt={title}
               />
             </div>

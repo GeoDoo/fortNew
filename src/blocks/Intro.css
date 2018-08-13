@@ -11,5 +11,25 @@
 }
 
 .title-svg-text {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title-svg-text {
+    flex: 1;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .title-svg-text:last-of-type {
+    margin-right: 0;
+  }
 }

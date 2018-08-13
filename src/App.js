@@ -10,6 +10,7 @@ import Footer from './regions/Footer';
 import Copyright from './blocks/Copyright';
 import Drawer from './regions/Drawer';
 import MainMenu from './blocks/MainMenu';
+import Facebook from './elements/Facebook';
 
 class App extends Component {
   state = {
@@ -42,6 +43,7 @@ class App extends Component {
           <Copyright />
         </Footer>
         <Drawer isOpen={isDrawerOpen}>
+          <Facebook />
           <MainMenu />
         </Drawer>
       </div>

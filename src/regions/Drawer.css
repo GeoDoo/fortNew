@@ -1,11 +1,11 @@
 #drawer {
   position: fixed;
-  top: 81px;
+  top: 76px;
   right: 0;
   z-index: 9999;
   width: 100vw;
   height: 100vh;
-  max-height: calc(100vh - 81px);
+  max-height: calc(100vh - 76px);
   overflow: auto;
   display: flex;
   background: #9b918d;
@@ -18,7 +18,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100vw - 32px);
+  width: 100vw;
 }
 
 .closed {

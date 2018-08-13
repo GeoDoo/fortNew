@@ -4,13 +4,13 @@ import SocialIcon from './SocialIcon';
 
 describe('SocialIcon', () => {
   it('should render without crashing', () => {
-    shallow(<SocialIcon />);
+    shallow(<SocialIcon icon="test.svg" />);
   });
 
   describe('components', () => {
     let wrapper;
     beforeEach(() => {
-      wrapper = mount(<SocialIcon />);
+      wrapper = mount(<SocialIcon icon="test.svg" />);
     });
 
     it('should have a link to external social platform', () => {

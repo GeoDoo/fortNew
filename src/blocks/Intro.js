@@ -1,11 +1,7 @@
-import React from 'react';
-import SVG from '../elements/SVG';
+import createTitleSvgText from '../adapters/titleSvgText';
+import data from '../assets/text/intro';
+import './Intro.css';
 
-const Intro = () => (
-  <div>
-    <SVG />
-    <SVG />
-  </div>
-);
+const Intro = () => createTitleSvgText(data);
 
 export default Intro;

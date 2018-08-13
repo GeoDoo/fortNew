@@ -90,3 +90,7 @@ a:visited {
 .title-text {
   margin-bottom: 16px;
 }
+
+.center {
+  text-align: center;
+}
